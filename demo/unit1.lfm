@@ -1,0 +1,376 @@
+object Form1: TForm1
+  Left = 617
+  Height = 429
+  Top = 295
+  Width = 530
+  Caption = 'Form1'
+  ClientHeight = 429
+  ClientWidth = 530
+  DesignTimePPI = 120
+  LCLVersion = '3.99.0.0'
+  object SpeedButton1: TSpeedButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 10
+    Height = 46
+    Top = 10
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 0
+  end
+  object SpeedButton2: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton1
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    Left = 66
+    Height = 46
+    Top = 10
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 1
+  end
+  object SpeedButton3: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton2
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    Left = 122
+    Height = 46
+    Top = 10
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 2
+  end
+  object SpeedButton4: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton3
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    Left = 178
+    Height = 46
+    Top = 10
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 3
+  end
+  object SpeedButton5: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton4
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    Left = 234
+    Height = 46
+    Top = 10
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 4
+  end
+  object SpeedButton6: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton5
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    Left = 290
+    Height = 46
+    Top = 10
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 5
+  end
+  object Label1: TLabel
+    AnchorSideLeft.Control = SpeedButton6
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton1
+    AnchorSideTop.Side = asrCenter
+    Left = 356
+    Height = 20
+    Top = 23
+    Width = 43
+    BorderSpacing.Left = 20
+    Caption = '36 x36'
+  end
+  object SpeedButton7: TSpeedButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = SpeedButton1
+    AnchorSideTop.Side = asrBottom
+    Left = 10
+    Height = 46
+    Top = 66
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 6
+  end
+  object SpeedButton8: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton7
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton1
+    AnchorSideTop.Side = asrBottom
+    Left = 66
+    Height = 46
+    Top = 66
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 7
+  end
+  object SpeedButton9: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton8
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton1
+    AnchorSideTop.Side = asrBottom
+    Left = 122
+    Height = 46
+    Top = 66
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 8
+  end
+  object SpeedButton10: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton9
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton1
+    AnchorSideTop.Side = asrBottom
+    Left = 178
+    Height = 46
+    Top = 66
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 9
+  end
+  object SpeedButton11: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton10
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton1
+    AnchorSideTop.Side = asrBottom
+    Left = 234
+    Height = 46
+    Top = 66
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 10
+  end
+  object SpeedButton12: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton11
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton1
+    AnchorSideTop.Side = asrBottom
+    Left = 290
+    Height = 46
+    Top = 66
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 11
+  end
+  object SpeedButton13: TSpeedButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = SpeedButton7
+    AnchorSideTop.Side = asrBottom
+    Left = 10
+    Height = 46
+    Top = 122
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 12
+  end
+  object SpeedButton14: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton13
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton7
+    AnchorSideTop.Side = asrBottom
+    Left = 66
+    Height = 46
+    Top = 122
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 13
+  end
+  object SpeedButton15: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton14
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton7
+    AnchorSideTop.Side = asrBottom
+    Left = 122
+    Height = 46
+    Top = 122
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 14
+  end
+  object SpeedButton16: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton15
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton7
+    AnchorSideTop.Side = asrBottom
+    Left = 178
+    Height = 46
+    Top = 122
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 15
+  end
+  object SpeedButton17: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton16
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton7
+    AnchorSideTop.Side = asrBottom
+    Left = 234
+    Height = 46
+    Top = 122
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 16
+  end
+  object SpeedButton18: TSpeedButton
+    AnchorSideLeft.Control = SpeedButton17
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = SpeedButton7
+    AnchorSideTop.Side = asrBottom
+    Left = 290
+    Height = 46
+    Top = 122
+    Width = 46
+    AutoSize = True
+    BorderSpacing.Around = 10
+    Flat = True
+    Images = ImageList1
+    ImageIndex = 17
+  end
+  object ImageList1: TImageList
+    Height = 36
+    Width = 36
+    Left = 440
+    Top = 24
+    Bitmap = {
+      4C7A120000002400000024000000660A00000000000078DAED9D598C14551486
+      8F5BDC17DC37DC8D8A2F6EC4074C243EA8445161BA7A0694488C0AD1188D31A8
+      890B266878D09880891A7121D1A8C4091A358A1251710930B24CCFC212653082
+      6CC362C4599469CF69AA27776AAA7ABABAEB2E5DF33FDCD01445D7A9FFDCF5EB
+      73EFC9E7F394574A8B47F9444A8666E703DF5D4951BE739794568FFEABD4A65C
+      966626654F02EF93884E89D993A5C793B029297B0A9F13B029497B92B069C0FB
+      C5ACBF51EF538D4D3AECA9C6265DF6546A53D2F5A75A9B92D227CEFF31DA1F26
+      684FD2DF5DC97B57AB8FCBF654DA0E2BB5A7A59E4657EA371DF6E43C5A58CA1E
+      93FA34D7D1A57CDF7E57F4E17E6D7E35ED2C497B720D3492EFE919CA1E53FEE2
+      79E89C6AFBA1A4EC699F4027F1BFFFAD3C7F894D7D787E3F6BC09C3D43636DE9
+      B3F6363AD65F77F46B13A683297D787E3023A84D297B74EAB3611C1DCED737C7
+      195775EAC36D6A7A92E37C35F62CF0E810BEB6DE157BB82F9E1478E69280AD46
+      FDC57F5F19568F0B65261D6C521F1EC36F89D2A650880E32A90F7F5E1AA94DC4
+      73315F356F8FA9326CED013F043F043F043F043F043F043F043FACCE5FC27EB6
+      7259CE652EB7993126F489597FBE699B48E75AD227AA6CE2F9D2E98EE8539C83
+      BD65CA9EE27A943538B1D9A3ABB9DE3CC8D77704EEDB65C85F7D11FDFF7853EB
+      C1C073F687DDBF660A1D6D6ABDAC7E87CCEBCBED670CE9F36F5C7B34D79F5EC7
+      F4E909BBBFC9A3E32DE9D31DCAA333E459D2A7ABC8E784D1E7EAE89A9C470F07
+      78B4940E97FA67E1F70E8D5FAB7EF2E84847F4695C75079D60697CEFE5B2857D
+      D3C4E3E78BAD7574ED70E375E087E087E087E087E087E087E087E087E087E087
+      65F11F77D6CB79C77842CDEB037FD9D5276EBFE8004F803E0EE983F685FE10FA
+      A4571FF043F043F043F043F043F043F043F043F043F0C35AE2873CD68F1A144F
+      524797DB5A5F84CD1FE49A459ED01E727FAB4DDEA2FA2CCC57A6ED517D16E62B
+      0BFCA7BD94AF6CF031F15994AF6CF031F15394AF2CF1C3D6285F81AF3AC5575B
+      CAB9664A9FD60C3D5BCE3553F6F8675C0C6AFB36F958CEA39CEA2BDBFC90F578
+      46F5956D7EB8C6A34B82632BF821F821F821F821F821F821F821F821F821F821
+      F8E190FEEAF2F7E37E90CBD08DAEED5FE6B5C6AB72569253FB97B374B743FBBB
+      A5FC60D29E41E7FC65E9E5C03D9D36E3699B27D388C05A7E8F2D7D648F375F7B
+      69C07CD9A35F5CAACFC5F5BC23F5791F6B768E23FAFCCE7DE2ADAEF487ECA771
+      36E3D543CEF06C977DC4A6F5E9FFDD22E40C4F6E5B536CD913A1D1FAA6FBE930
+      5BFD6198465C8FA6D9D22742A36D2B3D3AC5D67811A611978F315F053F043F04
+      3F043F043F043F043F043F043F1C8EFC50E13CD2261671F9D51FF7FB64BD2EEB
+      642E2B781C7F2DEE198895D85388CBF2687B8C3AF4BACA1035AC2F3EA960CE33
+      5DE3FA6B67E079CB9BEBE882E299557E4CDB8F817B5668B4A737F0EEEF86E4E7
+      B82260CF5F1AFDB531C8C0D9A67BDA26D21936DA3B8F2F4F0D515F248FCA6A39
+      032DECDCCCA4F529E46EC8D02B51797F026507DB74B389FEB0906F87FB207EDE
+      57FEB9AB51719BFF487C90A9FC29FD67544EA4B3731ED54BFD96731A03BF19BC
+      6F73BC089E37C81AFDA1B17D0DF04D5B1D5D1CBC7FC9583A34EC5C421DFAB04F
+      BE0EF43F2F94D1FF6CD3D8DE6707CFD11306CF75F67C39E7B4D9A3EB43E2331B
+      75F9CB8FA5EB89317E75B7D5D3555AF3A764292BBFDB9461CB5EF6EF04DDF39F
+      824E13E854B6E951BEFE859C7B287556FA1A694B05A699A5A77393E834CC57C1
+      0FC10FC10FC10FC10FC10FC10FC10FC10F873B3F843E98CFC35F7AF51186E1B3
+      27E1F1DDC2E625D650C6A252F90A74E8C3B65C578A29C8FE4635E647B73EFC79
+      8D321E3F22798673F57419DBD9ACD8F5B6D5FA233961D579839203C850FD39C6
+      7FFE629F91F7963396EAD0C7CFADDE91E4D85E65FD59AC3C7735EB74D3863BE9
+      B8E0FB9BB247B893C272CF5119950D7FF1E7754AFB6A5837894E96FCD06CDB6F
+      56F4C9D0B44AE786BADA3BDBF4909FBFBB479821F781DF717F7D970D7D30DF00
+      3F043F043F043F043F043F043F043F043FAC55DEE2DAFCD9D6FA222DFAC05F76
+      F4D938958EE035EA93C2C48A712DEAB95F26F5913D93FCEC6F9DE13F0772743B
+      C313F8F352955B4A7CF6DA063A33188B6C908FEDEE5F4F35D0C8E27589FDB3A4
+      4F7FFCA5B0DEE275F96C5D9F7ABA308E3E9AECE9AF3FB90C7D282CDE67871F59
+      F15715ED4B873ED5F43FBAC68B42FFECD113FE6F19B2EF6237F7D7CF831F821F
+      821F821F821F821F821F821F821F821F821F0E5AEFECD3A15912F11B2EE8538D
+      3D9AD6A75D8ED9D3ED92BFAAB147B73E72665ECEA39FFDB9F5161E8BE60B9B32
+      ACCF50FB1965DFF24506F529677F65A3417DD4D8BE46F18FC46CF9F1A3B1CFCD
+      4C409F7E5EA7EEC3973DD536788BBA1E7481CFAB7BF11DB1A7AF527B34D5E73E
+      C7F4C93BA64FDE257DC00FC10FC10FC10FC10FC10FC10FC10FC10FC10FB1DF13
+      FAA03EC35F8EF0D51E9F654A6E8065FE198C7B652C2CC4906569817F3E5927FF
+      F999C44E69E609455EB729E45D9785E4289A6F8C1F66E85E7EDE7D81F305A7AA
+      D7641FA8297E2867B04951ED29B0CD81D7BA4DF143394FB370A6A6F2DD61D74C
+      F3C3A172F79AE687E5DA638A1F5AD627EF983E7997F4C17C03FC10FC10FC10FC
+      10FC10FC10FC10FC10FC10BC05FAA03EDB8F27B1147FA8B2A7C99213DB9F57EF
+      9198368923B3A54F4459644B9F90B275B5476759D4E77BC94F24E7D809B794B3
+      236DD61FB105ED2BBDF6C05FD007F30DF043F043F043F043F043F043F043F043
+      F043F031E883FA6CCE5F927F43F69EFAB926BA0A794BB2343F2E7F49429FE6C9
+      3482FFFE67C4BB76C8F97A26F5E139F963FEB59D920BB5A59E46FB79A2FBFC31
+      7186E1F30AE615E30FD51CD46CC703B2DF5BE2EB0CF384E794EF9258CD2F25E7
+      43293FE9D4C7DFA7BC23E43D7BD97F739AC6D351A6DB577B039DC79ABCA99EED
+      A094B9B6FA1FD182EDBA9DFFFD3D258E74B3497BC42785DC481E7D3AE0BE0CBD
+      E3DFDB69F8FC8D79CAEF17B3B81F1CE3E706D9EAE74BFADCA83E0762653BA2F2
+      AB731965BA3ECB6F14ACCB1BFCECB57E0E95EDACCBC2D63ABA12E33BF821F821
+      F821F821F821F821F821F821F8A1ADF998CE3906F449BF3E69B26738F9AB92FC
+      CBBAF4494BFE65A3F5A706F32FEBD207F997CB3F2F374EFE655DFE4A4BFE659D
+      ED1DF997C10FC10FC10FC10FC10FC10FC10FC10FC10FC15BAAB7A796F2F9421F
+      F8CB557D2AC9BFAC4B9FB4E45FD6C85B52917F59A33EC8BF5C66FD89937F599B
+      BF52927F59E77881FCCBE087E087E087E087E087E087E087E087E087E08765AF
+      7752917F5963BC16F22F97B6A7DB257FB99C7F99EBD20D3E87EA1C2AFFB2467D
+      52917F59A33EA9C8BFACB13F44FEE598F94A6CFE9E9296FCCB1AF541FE65F043
+      F043F043F043F043F043F043F043F043ECCF853ED8BF8C785AE893D2FCCB46F8
+      610DE75F36C10F917F39B97CC726F9612DE65F36C90F917F19FC10FC10FC10FC
+      10FC10FC10FC10FC10FC107C0CFA603E3F2CF8582AF22F9BD0A796F32F1BD2A7
+      66F32F0FC7F655CBF6C05FD007F30DF043F043F043F043F043F043F043F043F0
+      43F031E883F585D9F8C334E45FD696FF2225F99735F28454E45FD6D9BE907FB9
+      64FBAA28FFB2C678D154E45FD6599F917F19FCB056ECF91F97FE53B9
+    }
+  end
+end
