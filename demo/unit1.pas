@@ -12,8 +12,12 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
-    ImageList1: TImageList;
+    il_36: TImageList;
+    il_24: TImageList;
+    il_48: TImageList;
     Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
     SpeedButton1: TSpeedButton;
     SpeedButton10: TSpeedButton;
     SpeedButton11: TSpeedButton;
@@ -24,8 +28,26 @@ type
     SpeedButton16: TSpeedButton;
     SpeedButton17: TSpeedButton;
     SpeedButton18: TSpeedButton;
+    SpeedButton19: TSpeedButton;
     SpeedButton2: TSpeedButton;
+    SpeedButton20: TSpeedButton;
+    SpeedButton21: TSpeedButton;
+    SpeedButton22: TSpeedButton;
+    SpeedButton23: TSpeedButton;
+    SpeedButton24: TSpeedButton;
+    SpeedButton25: TSpeedButton;
+    SpeedButton26: TSpeedButton;
+    SpeedButton27: TSpeedButton;
+    SpeedButton28: TSpeedButton;
+    SpeedButton29: TSpeedButton;
     SpeedButton3: TSpeedButton;
+    SpeedButton30: TSpeedButton;
+    SpeedButton31: TSpeedButton;
+    SpeedButton32: TSpeedButton;
+    SpeedButton33: TSpeedButton;
+    SpeedButton34: TSpeedButton;
+    SpeedButton35: TSpeedButton;
+    SpeedButton36: TSpeedButton;
     SpeedButton4: TSpeedButton;
     SpeedButton5: TSpeedButton;
     SpeedButton6: TSpeedButton;
